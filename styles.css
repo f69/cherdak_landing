@@ -1,0 +1,48 @@
+body,
+html {
+    background: #000;
+    background-size: cover;
+}
+
+body,
+p {
+    font: 400 0.875rem "Open Sans", sans-serif;
+    color: #fff;
+}
+
+a,
+a:hover {
+    color: #f1D093;
+}
+
+body {
+    text-align: center;
+}
+
+.header {
+    padding: 30px 5% 0 5%;
+}
+
+.screenshot {
+    padding: 4%;
+    height: 400px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 2em 0.5em 2em;
+    border: 0.125rem solid #f1D093;
+    border-radius: 2rem;
+    background-color: transparent;
+    color: #f1D093;
+    font: 700 0.75rem/0;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    margin: 0 0 5% 0;
+}
+
+.btn:hover {
+    background-color: #f1D093;
+    color: #000;
+    text-decoration: none;
+}
